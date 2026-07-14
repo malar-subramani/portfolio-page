@@ -1,12 +1,12 @@
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 import { Mail, Linkedin } from 'lucide-react';
 
-const fadeUp = {
+const fadeUp: Variants = {
   hidden: { opacity: 0, y: 40 },
   visible: (i: number) => ({
     opacity: 1,
     y: 0,
-        transition: { duration: 0.6, delay: i * 0.1, ease: 'easeOut' as const },
+    transition: { duration: 0.6, delay: i * 0.1, ease: 'easeOut' },
   }),
 };
 
