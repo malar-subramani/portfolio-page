@@ -1,6 +1,6 @@
 import { motion, useInView } from 'framer-motion';
 import { useRef, type ReactNode } from 'react';
-import { Megaphone, Settings2, Code2, Target, GitBranch, Zap, Mail, FileText, Users, Database, Braces, Globe, Filter, Layers, BarChart2, RefreshCw, Briefcase } from 'lucide-react';
+import { Megaphone, Settings2, Code2, Target, GitBranch, Zap, Mail, FileText, Users, Database, Braces, Globe, Filter, Layers, BarChart2, RefreshCw } from 'lucide-react';
 import { SiHubspot, SiHtml5 } from 'react-icons/si';
 import brazeLogo from '@/assets/braze-logo.png';
 
@@ -40,7 +40,7 @@ const CARDS: CardDef[] = [
     iconBg: 'linear-gradient(135deg,#7C3AED,#C084FC)',
     ring: [C.purple1, C.purple2],
     skills: [
-      { name: 'Salesforce Marketing Cloud', icon: <Briefcase size={12} color="#00A1E0" /> },
+    { name: 'Salesforce Marketing Cloud', icon: <img src="/salesforce.png" alt="Salesforce" style={{ width: 14, height: 14, flexShrink: 0 }} /> },
       { name: 'Braze',                      icon: <img src={brazeLogo} alt="Braze" style={{ width: 14, height: 14, flexShrink: 0, borderRadius: '50%' }} /> },
       { name: 'HubSpot',                    icon: <SiHubspot size={12} color="#FF7A59" /> },
     ],
@@ -67,7 +67,7 @@ const CARDS: CardDef[] = [
     ring: [C.blue1, C.blue2],
     skills: [
       { name: 'HTML & CSS',                   icon: <SiHtml5 size={12} color="#E34F26" /> },
-      { name: 'AMPscript',                      icon: <Briefcase size={12} color="#00A1E0" /> },  
+    { name: 'AMPscript',                      icon: <img src="/salesforce.png" alt="Salesforce" style={{ width: 14, height: 14, flexShrink: 0 }} /> },
       { name: 'Liquid',                       icon: <Braces size={12} /> },
       { name: 'SQL',                          icon: <Database size={12} /> },
       { name: 'Responsive Email Development', icon: <Mail size={12} /> },
